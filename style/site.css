@@ -1,0 +1,14 @@
+#gameContainer-section {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+td {
+  background-color: lightblue;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid lightcoral;
+}/*# sourceMappingURL=site.css.map */

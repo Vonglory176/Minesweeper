@@ -4,11 +4,7 @@ export class Tile {
         this.row = row
         this.col = col
         this.bomb = bomb
-        this.scanned = false
+        this.checked = false
         this.flagged = false
-    }   
-
-    bombCheck() {
-
     }
 }

@@ -1,14 +1,39 @@
-#gameContainer-section {
-    background-color: aqua;
-    width: 500px;
-    height: 500px;
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
+
+    padding: 0px 15px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+h1 {margin: 0 !important;}
+
+#gameOver {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    background-color: rgb(251, 248, 248, 0.9);
+    padding: 10px;
 }
 
 td {
     background-color: lightblue;
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
     text-align: center;
     border: 1px solid lightcoral;
+}
+
+input {
+    margin: 10px !important;
 }

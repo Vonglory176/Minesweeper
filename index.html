@@ -15,16 +15,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="text-center">
-        <h1>Minesweeper!</h1>
-        <h6>Skyler 2023</h6>
-    </header>
-    <main>
-        <section id="gameContainer-section">
-            <table>
-            </table>
-        </section>
-    </main>
+    <div>
+        <header class="text-center">
+            <h1>Minesweeper</h1>
+            <h6>Skyler 2023</h6>
+        </header>
+        <table id="gameContainer"></table>
+        <h2 id="gameOver">You lose!</h2>
+        <input type="button" value="New Game">
+    </div>
 
     <script type="module" src="main.js"></script>
 </body>

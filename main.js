@@ -1,9 +1,15 @@
 import { Tile } from "./tile.js"
 
-const columns = 20, rows = 20
+
 let tiles, gameState = true
 
 function createTable() {
+    let width = $(document).width()
+    const columns = width < 530? 10 : (width < 700? 15 : 20)
+    
+    let height = $(document).height()
+    const rows = height < 615? 10 : (height < 780? 15 : 20)
+    
     tiles = new Array
 
     for(let i=0;i<rows;i++) {
